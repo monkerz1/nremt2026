@@ -50,7 +50,7 @@ export default function RegisterPage() {
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">E</span>
             </div>
-            <span className="font-bold text-2xl text-foreground">EMTQUIZ</span>
+            <span className="font-bold text-2xl text-foreground">EMSQUIZ</span>
           </Link>
           <h1 className="text-2xl font-bold mb-2">Create Account</h1>
           <p className="text-muted-foreground">Start preparing for your EMT certification</p>

@@ -35,7 +35,7 @@ export default function PrivacyPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-sm leading-relaxed">
               <p>
-                EMTQUIZ ("we", "us", "our", or "Company") operates the EMTQUIZ website and mobile application (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+                EMSQUIZ ("we", "us", "our", or "Company") operates the EMSQUIZ website and mobile application (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
               </p>
               <p>
                 We are committed to protecting your privacy and ensuring you have a positive experience on our platform. This Privacy Policy explains our online information practices and the choices you can make about how your information is collected and used.
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
             <CardContent className="space-y-6 text-sm">
               <div>
                 <h3 className="font-semibold mb-2">Personal Information</h3>
-                <p className="text-muted-foreground mb-3">We collect certain personally identifiable information when you register and use EMTQUIZ, including:</p>
+                <p className="text-muted-foreground mb-3">We collect certain personally identifiable information when you register and use EMSQUIZ, including:</p>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-2">
                   <li>Name and email address</li>
                   <li>Password and account credentials</li>
@@ -92,7 +92,7 @@ export default function PrivacyPage() {
               <CardDescription>How we use your information</CardDescription>
             </CardHeader>
             <CardContent className="space-y-3 text-sm">
-              <p className="text-muted-foreground">EMTQUIZ uses the collected data for various purposes:</p>
+              <p className="text-muted-foreground">EMSQUIZ uses the collected data for various purposes:</p>
               <ul className="space-y-2 text-muted-foreground">
                 <li>• To provide and maintain our Service</li>
                 <li>• To track your progress and provide personalized learning recommendations</li>
@@ -138,7 +138,7 @@ export default function PrivacyPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                EMTQUIZ will retain your Personal Data only for as long as necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations.
+                EMSQUIZ will retain your Personal Data only for as long as necessary for the purposes set out in this Privacy Policy. We will retain and use your Personal Data to the extent necessary to comply with our legal obligations.
               </p>
               <p>
                 If you wish to delete your account and associated data, you can request this through your account settings or by contacting us directly. We will process deletion requests within 30 days, except where we are required to retain data for legal or regulatory purposes.
@@ -214,7 +214,7 @@ export default function PrivacyPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-sm text-muted-foreground leading-relaxed">
               <p>
-                Our Service may contain links to third-party websites and services that are not operated by EMTQUIZ. This Privacy Policy does not apply to third-party websites, and we are not responsible for their privacy practices.
+                Our Service may contain links to third-party websites and services that are not operated by EMSQUIZ. This Privacy Policy does not apply to third-party websites, and we are not responsible for their privacy practices.
               </p>
               <p>
                 We encourage you to review the privacy policies of any third-party websites before providing your personal information or using their services. Your use of third-party websites is at your own risk.
@@ -249,7 +249,7 @@ export default function PrivacyPage() {
                 We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top of this policy.
               </p>
               <p>
-                Your continued use of EMTQUIZ following the posting of revised Privacy Policy means that you accept and agree to the changes. We encourage you to review this Privacy Policy periodically to stay informed about how we protect your information.
+                Your continued use of EMSQUIZ following the posting of revised Privacy Policy means that you accept and agree to the changes. We encourage you to review this Privacy Policy periodically to stay informed about how we protect your information.
               </p>
             </CardContent>
           </Card>
@@ -266,7 +266,7 @@ export default function PrivacyPage() {
               </p>
               <div className="space-y-2 text-muted-foreground">
                 <p>Email: privacy@emtquiz.com</p>
-                <p>Mailing Address: EMTQUIZ, Inc.<br />123 Medical Plaza Drive<br />Healthcare City, ST 12345<br />United States</p>
+                <p>Mailing Address: EMSQUIZ, Inc.<br />123 Medical Plaza Drive<br />Healthcare City, ST 12345<br />United States</p>
                 <p>Phone: 1-800-EMT-QUIZ (1-800-368-7849)</p>
               </div>
               <p className="text-muted-foreground mt-4">
@@ -278,7 +278,7 @@ export default function PrivacyPage() {
           {/* Acknowledgment */}
           <div className="bg-muted p-6 rounded-lg border border-border">
             <p className="text-sm text-muted-foreground">
-              By accessing and using EMTQUIZ, you acknowledge that you have read, understood, and agree to be bound by all the terms of this Privacy Policy.
+              By accessing and using EMSQUIZ, you acknowledge that you have read, understood, and agree to be bound by all the terms of this Privacy Policy.
             </p>
           </div>
         </div>
@@ -287,7 +287,7 @@ export default function PrivacyPage() {
       {/* Footer */}
       <footer className="border-t border-border py-8 px-4 sm:px-6 lg:px-8 mt-12">
         <div className="max-w-4xl mx-auto text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} EMSQUIZ. All rights reserved.</p>
         </div>
       </footer>
     </div>

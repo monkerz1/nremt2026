@@ -169,7 +169,7 @@ export default function FeaturesPage() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">E</span>
             </div>
-            <span className="font-bold text-xl text-foreground hidden sm:inline">EMTQUIZ</span>
+            <span className="font-bold text-xl text-foreground hidden sm:inline">EMSQUIZ</span>
           </Link>
           <div className="flex items-center gap-4">
             <Link href="/login">
@@ -305,7 +305,7 @@ export default function FeaturesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Choose EMTQUIZ</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Why Choose EMSQUIZ</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Everything you need to succeed on your certification exam.</p>
           </div>
 
@@ -339,11 +339,11 @@ export default function FeaturesPage() {
             {[
               {
                 q: 'How many practice questions are included?',
-                a: 'EMTQUIZ includes 500+ practice questions covering all EMT-Basic, EMT-Intermediate, Paramedic, and advanced practice modules. New questions are added regularly.'
+                a: 'EMSQUIZ includes 500+ practice questions covering all EMT-Basic, EMT-Intermediate, Paramedic, and advanced practice modules. New questions are added regularly.'
               },
               {
                 q: 'Can I access the platform on mobile?',
-                a: 'Yes! EMTQUIZ is fully responsive and works seamlessly on desktop, tablet, and mobile devices. Study wherever and whenever you want.'
+                a: 'Yes! EMSQUIZ is fully responsive and works seamlessly on desktop, tablet, and mobile devices. Study wherever and whenever you want.'
               },
               {
                 q: 'What is your pass rate?',
@@ -379,7 +379,7 @@ export default function FeaturesPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-primary text-primary-foreground">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Ready to Pass Your EMT Certification?</h2>
-          <p className="text-lg mb-8 opacity-90">Start your free trial today and discover why thousands of students trust EMTQUIZ to help them ace their certification exams.</p>
+          <p className="text-lg mb-8 opacity-90">Start your free trial today and discover why thousands of students trust EMSQUIZ to help them ace their certification exams.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/register">
               <Button size="lg" variant="secondary">
@@ -398,7 +398,7 @@ export default function FeaturesPage() {
       {/* Footer */}
       <footer className="border-t border-border py-12 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-7xl mx-auto text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.</p>
+          <p>&copy; {new Date().getFullYear()} EMSQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.</p>
         </div>
       </footer>
     </div>

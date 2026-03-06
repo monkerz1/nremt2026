@@ -95,7 +95,7 @@ export default function SecurityPage() {
           <div className="max-w-2xl mb-8">
             <h2 className="text-3xl font-bold mb-4">Your Security is Our Priority</h2>
             <p className="text-lg text-muted-foreground mb-4">
-              At EMTQUIZ, we take the security and privacy of your personal information extremely seriously. We implement comprehensive security measures to protect your data from unauthorized access, alteration, disclosure, or destruction.
+              At EMSQUIZ, we take the security and privacy of your personal information extremely seriously. We implement comprehensive security measures to protect your data from unauthorized access, alteration, disclosure, or destruction.
             </p>
             <p className="text-lg text-muted-foreground">
               This page explains the security practices we employ and the standards we comply with to ensure your information remains safe and confidential.
@@ -298,7 +298,7 @@ export default function SecurityPage() {
           <div className="max-w-2xl">
             <h2 className="text-2xl font-bold mb-4">Security Concerns?</h2>
             <p className="mb-6">
-              If you discover a security vulnerability or have security concerns about EMTQUIZ, please report it to our security team immediately. We take all security reports seriously and will respond promptly.
+              If you discover a security vulnerability or have security concerns about EMSQUIZ, please report it to our security team immediately. We take all security reports seriously and will respond promptly.
             </p>
             <div className="space-y-2 mb-6">
               <p><strong>Email:</strong> security@emtquiz.com</p>
