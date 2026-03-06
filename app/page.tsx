@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -8,6 +8,16 @@ import { CheckCircle2, BookOpen, BarChart3, Clock, Users, Zap, Menu, X } from 'l
 
 export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  // Scroll-triggered fade-in
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => entries.forEach(e => e.target.classList.toggle('opacity-100', e.isIntersecting)),
+      { threshold: 0.15 }
+    )
+    document.querySelectorAll('.fade-section').forEach(el => observer.observe(el))
+    return () => observer.disconnect()
+  }, [])
 
   const menuSections = [
     {
@@ -138,9 +148,47 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden py-28 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary/10 via-background to-secondary/10">
+        {/* Heartbeat SVG */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-5 pointer-events-none select-none">
+          <svg viewBox="0 0 600 100" className="w-full max-w-4xl" fill="none" stroke="currentColor" strokeWidth="2">
+            <polyline points="0,50 80,50 110,20 140,80 170,10 200,90 230,50 600,50" className="text-primary stroke-primary" strokeWidth="3"/>
+          </svg>
+        </div>
+
+        {/* Animated heartbeat line above the stats */}
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
+            <div className="flex justify-center mb-6">
+              <svg viewBox="0 0 300 60" className="w-64 h-12" fill="none">
+                <polyline
+                  points="0,30 50,30 70,10 90,50 110,5 130,55 150,30 300,30"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="text-primary"
+                  style={{
+                    strokeDasharray: 400,
+                    strokeDashoffset: 400,
+                    animation: 'drawLine 2s ease forwards'
+                  }}
+                />
+              </svg>
+            </div>
+            <style>{`
+              @keyframes drawLine {
+                to { stroke-dashoffset: 0; }
+              }
+              .fade-section {
+                opacity: 0;
+                transform: translateY(24px);
+                transition: opacity 0.7s ease, transform 0.7s ease;
+              }
+              .fade-section.opacity-100 {
+                transform: translateY(0);
+              }
+            `}</style>
             <h1 className="text-5xl sm:text-6xl font-bold mb-6 text-balance leading-tight">
               Master Your EMT & Paramedic Certification
             </h1>
@@ -162,25 +210,30 @@ export default function Home() {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mt-16">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Practice Questions</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">4 Levels</div>
-              <div className="text-muted-foreground">EMT-Basic to Paramedic</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-primary mb-2">95%</div>
-              <div className="text-muted-foreground">Pass Rate</div>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16">
+            {[
+              { value: '500+', label: 'Practice Questions' },
+              { value: '4 Levels', label: 'EMT-Basic to Paramedic' },
+              { value: '95%', label: 'Pass Rate' },
+            ].map((stat) => (
+              <div key={stat.label} className="text-center bg-background/60 backdrop-blur border border-border rounded-2xl py-6 px-4 shadow-sm">
+                <div className="text-4xl font-bold text-primary mb-1">{stat.value}</div>
+                <div className="text-muted-foreground text-sm">{stat.label}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
+      {/* Wave divider */}
+      <div className="w-full overflow-hidden -mt-1 leading-none">
+        <svg viewBox="0 0 1440 60" className="w-full h-12 text-card/50 fill-current" preserveAspectRatio="none">
+          <path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" />
+        </svg>
+      </div>
+
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-card/50">
+      <section id="features" className="fade-section py-20 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Everything You Need to Pass</h2>
@@ -311,8 +364,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Wave into footer */}
+      <div className="w-full overflow-hidden -mb-1 leading-none">
+        <svg viewBox="0 0 1440 60" className="w-full h-12 fill-current text-primary/5" preserveAspectRatio="none">
+          <path d="M0,30 C360,0 1080,60 1440,30 L1440,60 L0,60 Z" />
+        </svg>
+      </div>
+
       {/* Footer */}
-      <footer className="border-t border-border py-8 px-4 sm:px-6 lg:px-8">
+      <footer className="border-t border-border py-8 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-primary/5 to-secondary/5">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
             <div>
@@ -350,6 +410,11 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
+            <div className="flex justify-center mb-3">
+              <svg viewBox="0 0 120 24" className="w-20 h-4 opacity-40" fill="none">
+                <polyline points="0,12 20,12 28,4 36,20 44,2 52,22 60,12 120,12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
             <p>&copy; {new Date().getFullYear()} EMSQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.</p>
           </div>
         </div>
