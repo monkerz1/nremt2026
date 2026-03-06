@@ -11,12 +11,19 @@ export default function Home() {
 
   // Scroll-triggered fade-in
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => entries.forEach(e => e.target.classList.toggle('opacity-100', e.isIntersecting)),
-      { threshold: 0.15 }
-    )
-    document.querySelectorAll('.fade-section').forEach(el => observer.observe(el))
-    return () => observer.disconnect()
+    const timer = setTimeout(() => {
+      const observer = new IntersectionObserver(
+        (entries) => entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('opacity-100')
+          }
+        }),
+        { threshold: 0.05, rootMargin: '0px 0px -50px 0px' }
+      )
+      document.querySelectorAll('.fade-section').forEach(el => observer.observe(el))
+      return () => observer.disconnect()
+    }, 100)
+    return () => clearTimeout(timer)
   }, [])
 
   const menuSections = [
@@ -186,7 +193,8 @@ export default function Home() {
                 transition: opacity 0.7s ease, transform 0.7s ease;
               }
               .fade-section.opacity-100 {
-                transform: translateY(0);
+                opacity: 1 !important;
+                transform: translateY(0) !important;
               }
             `}</style>
             <h1 className="text-5xl sm:text-6xl font-bold mb-6 text-balance leading-tight">
@@ -317,7 +325,7 @@ export default function Home() {
       </section>
 
       {/* Certification Levels */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8">
+      <section className="fade-section py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Choose Your Certification Level</h2>
