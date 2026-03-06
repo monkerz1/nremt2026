@@ -20,13 +20,13 @@ const faqData: FAQItem[] = [
   {
     id: 'gs-1',
     category: 'Getting Started',
-    question: 'How do I create an account on EMTQUIZ?',
+    question: 'How do I create an account on EMSQUIZ?',
     answer: 'Creating an account is simple and free. Click on "Get Started" or "Sign Up" on our homepage, enter your email address, create a password, and select your certification level (EMT-Basic, EMT-Intermediate, or Paramedic). You can start using the platform immediately after registration.'
   },
   {
     id: 'gs-2',
     category: 'Getting Started',
-    question: 'What certification levels does EMTQUIZ support?',
+    question: 'What certification levels does EMSQUIZ support?',
     answer: 'EMTQUIZ supports four certification levels: EMT-Basic, EMT-Intermediate, Paramedic (NREMT), and Advanced Practice Modules. Each level contains progressively advanced questions and topics tailored to the specific national certification exam requirements.'
   },
   {
@@ -64,8 +64,8 @@ const faqData: FAQItem[] = [
   {
     id: 'sm-4',
     category: 'Study Methods',
-    question: 'How many practice questions does EMTQUIZ have?',
-    answer: 'EMTQUIZ contains over 500 practice questions across all certification levels. Our question bank is continuously expanded with new content. Each question includes detailed explanations to help you understand the concepts, not just memorize answers.'
+    question: 'How many practice questions does EMSQUIZ have?',
+    answer: 'EMSQUIZ contains over 500 practice questions across all certification levels. Our question bank is continuously expanded with new content. Each question includes detailed explanations to help you understand the concepts, not just memorize answers.'
   },
   {
     id: 'sm-5',
@@ -84,14 +84,14 @@ const faqData: FAQItem[] = [
   {
     id: 'ep-2',
     category: 'Exam Preparation',
-    question: 'Will EMTQUIZ questions match the actual NREMT exam?',
+    question: 'Will EMSQUIZ questions match the actual NREMT exam?',
     answer: 'Our questions are modeled after the NREMT exam format and difficulty level. While we cannot guarantee exact matches (as the official exam is proprietary), our content covers all tested domains and follows the same structure to ensure you\'re well-prepared for the real exam.'
   },
   {
     id: 'ep-3',
     category: 'Exam Preparation',
     question: 'What topics are covered on the Paramedic NREMT exam?',
-    answer: 'The Paramedic NREMT exam covers: Airway Management, Respiration, Circulation, Medical Emergencies (cardiac, respiratory, trauma), Pharmacology, Obstetrics, Pediatrics, Environmental Emergencies, Operations, and Hazmat. EMTQUIZ has comprehensive content for all these domains.'
+    answer: 'The Paramedic NREMT exam covers: Airway Management, Respiration, Circulation, Medical Emergencies (cardiac, respiratory, trauma), Pharmacology, Obstetrics, Pediatrics, Environmental Emergencies, Operations, and Hazmat. EMSQUIZ has comprehensive content for all these domains.'
   },
   {
     id: 'ep-4',
@@ -136,7 +136,7 @@ const faqData: FAQItem[] = [
   {
     id: 'tech-3',
     category: 'Technical',
-    question: 'Is my data secure on EMTQUIZ?',
+    question: 'Is my data secure on EMSQUIZ?',
     answer: 'Yes, we take security seriously. Your data is stored securely using industry-standard encryption. We never sell or share your personal information. Your quiz results and progress are private and only accessible to you.'
   },
   {
@@ -162,14 +162,14 @@ const faqData: FAQItem[] = [
   {
     id: 'as-3',
     category: 'Account & Support',
-    question: 'How do I contact EMTQUIZ support?',
-    answer: 'You can reach our support team by sending an email to support@emtquiz.com or using the contact form on our website. We typically respond within 24 hours on business days. For urgent issues, use the live chat feature if available.'
+    question: 'How do I contact EMSQUIZ support?',
+    answer: 'You can reach our support team by sending an email to support@emsquiz.com or using the contact form on our website. We typically respond within 24 hours on business days. For urgent issues, use the live chat feature if available.'
   },
   {
     id: 'as-4',
     category: 'Account & Support',
     question: 'Can I get a refund?',
-    answer: 'We offer a 30-day money-back guarantee if you\'re not satisfied with EMTQUIZ. Contact our support team with your refund request, and we\'ll process it promptly. Most refunds are issued within 5-7 business days.'
+    answer: 'We offer a 30-day money-back guarantee if you\'re not satisfied with EMSQUIZ. Contact our support team with your refund request, and we\'ll process it promptly. Most refunds are issued within 5-7 business days.'
   }
 ]
 

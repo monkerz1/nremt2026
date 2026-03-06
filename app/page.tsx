@@ -45,7 +45,7 @@ export default function Home() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">E</span>
             </div>
-            <span className="font-bold text-xl text-foreground">EMTQUIZ</span>
+            <span className="font-bold text-xl text-foreground">EMSQUIZ</span>
           </div>
           <div className="flex items-center gap-4">
             {/* Desktop Navigation */}
@@ -320,7 +320,7 @@ export default function Home() {
                 <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                   <span className="text-primary-foreground font-bold">E</span>
                 </div>
-                <span className="font-bold text-foreground">EMTQUIZ</span>
+                <span className="font-bold text-foreground">EMSQUIZ</span>
               </div>
               <p className="text-sm text-muted-foreground">Prepare for your EMT and Paramedic certification with confidence.</p>
             </div>
@@ -350,7 +350,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.</p>
+            <p>&copy; {new Date().getFullYear()} EMSQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.</p>
           </div>
         </div>
       </footer>

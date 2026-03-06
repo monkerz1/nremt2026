@@ -151,7 +151,7 @@ export default function PracticeTestsPage() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">E</span>
             </div>
-            <span className="font-bold text-xl text-foreground">EMTQUIZ</span>
+            <span className="font-bold text-xl text-foreground">EMSQUIZ</span>
           </Link>
           <div className="flex items-center gap-3">
             <Link href="/dashboard">

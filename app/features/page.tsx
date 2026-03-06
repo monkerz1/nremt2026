@@ -169,7 +169,7 @@ export default function FeaturesPage() {
             <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">E</span>
             </div>
-            <span className="font-bold text-xl text-foreground hidden sm:inline">EMTQUIZ</span>
+            <span className="font-bold text-xl text-foreground hidden sm:inline">EMSQUIZ</span>
           </Link>
           <div className="flex items-center gap-4">
             <Link href="/login">
@@ -398,7 +398,7 @@ export default function FeaturesPage() {
       {/* Footer */}
       <footer className="border-t border-border py-12 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-7xl mx-auto text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.</p>
+          <p>&copy; {new Date().getFullYear()} EMSQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.</p>
         </div>
       </footer>
     </div>

@@ -60,7 +60,7 @@ export default function ContactPage() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">E</span>
               </div>
-              <span className="font-bold text-xl text-foreground">EMTQUIZ</span>
+              <span className="font-bold text-xl text-foreground">EMSQUIZ</span>
             </Link>
             <div className="flex items-center gap-3">
               <Link href="/">
@@ -79,7 +79,7 @@ export default function ContactPage() {
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4 text-balance">Get in Touch</h1>
           <p className="text-lg text-muted-foreground">
-            Have questions about EMTQUIZ? We're here to help! Reach out to our team and we'll get back to you as soon as possible.
+            Have questions about EMSQUIZ? We're here to help! Reach out to our team and we'll get back to you as soon as possible.
           </p>
         </div>
       </section>
@@ -101,8 +101,8 @@ export default function ContactPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-2">Send us an email anytime</p>
-                <a href="mailto:support@emtquiz.com" className="text-primary hover:underline font-medium">
-                  support@emtquiz.com
+                <a href="mailto:support@emsquiz.com" className="text-primary hover:underline font-medium">
+                  support@emsquiz.com
                 </a>
                 <p className="text-xs text-muted-foreground mt-3">Response time: Within 24 hours</p>
               </CardContent>
@@ -140,7 +140,7 @@ export default function ContactPage() {
               <CardContent>
                 <p className="text-muted-foreground mb-2">Visit us in person</p>
                 <p className="font-medium">
-                  EMTQUIZ Inc.<br />
+                  EMSQUIZ Inc.<br />
                   123 Medical Center Blvd<br />
                   Boston, MA 02115
                 </p>
@@ -389,7 +389,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.
+              &copy; {new Date().getFullYear()} EMSQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.
             </p>
           </div>
         </div>
