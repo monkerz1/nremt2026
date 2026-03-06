@@ -30,14 +30,14 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
             <p className="text-muted-foreground">
-              By accessing and using EMTQUIZ, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service. We reserve the right to modify these terms at any time without notice.
+              By accessing and using EMSQuiz, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service. We reserve the right to modify these terms at any time without notice.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">2. Use License</h2>
             <p className="text-muted-foreground">
-              Permission is granted to temporarily download one copy of the materials (information or software) on EMTQUIZ for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+              Permission is granted to temporarily download one copy of the materials (information or software) on EMSQuiz for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 mt-3">
               <li>Modifying or copying the materials</li>
@@ -52,35 +52,35 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">3. Disclaimer</h2>
             <p className="text-muted-foreground">
-              The materials on EMTQUIZ are provided on an "as is" basis. EMTQUIZ makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+              The materials on EMSQuiz are provided on an "as is" basis. EMSQuiz makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">4. Limitations</h2>
             <p className="text-muted-foreground">
-              In no event shall EMTQUIZ or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on EMTQUIZ, even if EMTQUIZ or an authorized representative has been notified orally or in writing of the possibility of such damage.
+              In no event shall EMSQuiz or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on EMSQuiz, even if EMSQuiz or an authorized representative has been notified orally or in writing of the possibility of such damage.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">5. Accuracy of Materials</h2>
             <p className="text-muted-foreground">
-              The materials appearing on EMTQUIZ could include technical, typographical, or photographic errors. EMTQUIZ does not warrant that any of the materials on our website are accurate, complete, or current. EMTQUIZ may make changes to the materials contained on our website at any time without notice.
+              The materials appearing on EMSQuiz could include technical, typographical, or photographic errors. EMSQuiz does not warrant that any of the materials on our website are accurate, complete, or current. EMSQuiz may make changes to the materials contained on our website at any time without notice.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">6. Materials Reference</h2>
             <p className="text-muted-foreground">
-              EMTQUIZ has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by EMTQUIZ of the site. Use of any such linked website is at the user's own risk.
+              EMSQuiz has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by EMSQuiz of the site. Use of any such linked website is at the user's own risk.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">7. Modifications</h2>
             <p className="text-muted-foreground">
-              EMTQUIZ may revise these terms of service for our website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.
+              EMSQuiz may revise these terms of service for our website at any time without notice. By using this website, you are agreeing to be bound by the then current version of these terms of service.
             </p>
           </section>
 
@@ -94,21 +94,21 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">9. User Accounts</h2>
             <p className="text-muted-foreground">
-              When you create an account on EMTQUIZ, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account information and password. You agree to accept responsibility for all activities that occur under your account. You agree to notify EMTQUIZ immediately of any unauthorized use of your account.
+              When you create an account on EMSQuiz, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account information and password. You agree to accept responsibility for all activities that occur under your account. You agree to notify EMSQuiz immediately of any unauthorized use of your account.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">10. User Content</h2>
             <p className="text-muted-foreground">
-              Any content you submit, post, or display on EMTQUIZ is considered non-confidential and non-proprietary. By submitting content to EMTQUIZ, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute such content.
+              Any content you submit, post, or display on EMSQuiz is considered non-confidential and non-proprietary. By submitting content to EMSQuiz, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute such content.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">11. Prohibited Conduct</h2>
             <p className="text-muted-foreground">
-              You agree that you will not use EMTQUIZ in any way that:
+              You agree that you will not use EMSQuiz in any way that:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 mt-3">
               <li>Violates any applicable law or regulation</li>
@@ -124,35 +124,35 @@ export default function TermsPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4">12. Intellectual Property Rights</h2>
             <p className="text-muted-foreground">
-              All content on EMTQUIZ, including text, graphics, logos, images, audio clips, and software, is the property of EMTQUIZ or its content suppliers and is protected by international copyright laws. You may not reproduce, distribute, or transmit the content except as permitted by these terms of service.
+              All content on EMSQuiz, including text, graphics, logos, images, audio clips, and software, is the property of EMSQuiz or its content suppliers and is protected by international copyright laws. You may not reproduce, distribute, or transmit the content except as permitted by these terms of service.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">13. Educational Disclaimer</h2>
             <p className="text-muted-foreground">
-              EMTQUIZ provides educational materials to help prepare for EMT and Paramedic certification exams. While we strive for accuracy, we do not guarantee that all information is current or completely accurate. EMTQUIZ is not affiliated with, endorsed by, or associated with the National Registry of Emergency Medical Technicians (NREMT). Users are responsible for verifying information with official sources and consulting with qualified instructors.
+              EMSQuiz provides educational materials to help prepare for EMT and Paramedic certification exams. While we strive for accuracy, we do not guarantee that all information is current or completely accurate. EMSQuiz is not affiliated with, endorsed by, or associated with the National Registry of Emergency Medical Technicians (NREMT). Users are responsible for verifying information with official sources and consulting with qualified instructors.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">14. Subscription and Payments</h2>
             <p className="text-muted-foreground">
-              If you subscribe to EMTQUIZ services, you agree to pay all charges incurred. EMTQUIZ reserves the right to change pricing with 30 days' notice. Subscriptions automatically renew unless cancelled. You can cancel at any time through your account settings.
+              If you subscribe to EMSQuiz services, you agree to pay all charges incurred. EMSQuiz reserves the right to change pricing with 30 days' notice. Subscriptions automatically renew unless cancelled. You can cancel at any time through your account settings.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">15. Limitation of Liability</h2>
             <p className="text-muted-foreground">
-              Under no circumstances shall EMTQUIZ, its affiliates, officers, or employees be liable for any indirect, incidental, special, or consequential damages arising out of or in any way connected with your use of EMTQUIZ, including loss of profits, loss of data, or business interruption.
+              Under no circumstances shall EMSQuiz, its affiliates, officers, or employees be liable for any indirect, incidental, special, or consequential damages arising out of or in any way connected with your use of EMSQuiz, including loss of profits, loss of data, or business interruption.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold mb-4">16. Termination</h2>
             <p className="text-muted-foreground">
-              EMTQUIZ reserves the right to terminate or suspend your account and access to our services at any time for any reason, including but not limited to violation of these terms of service. Upon termination, your right to use EMTQUIZ immediately ceases.
+              EMSQuiz reserves the right to terminate or suspend your account and access to our services at any time for any reason, including but not limited to violation of these terms of service. Upon termination, your right to use EMSQuiz immediately ceases.
             </p>
           </section>
 
@@ -170,7 +170,7 @@ export default function TermsPage() {
 
           <section className="bg-muted/50 p-6 rounded-lg mt-8">
             <p className="text-sm text-muted-foreground">
-              <strong>Last Updated:</strong> March 2024. These terms of service may be updated at any time. Your continued use of EMTQUIZ following any changes constitutes your acceptance of the new terms.
+              <strong>Last Updated:</strong> March 2024. These terms of service may be updated at any time. Your continued use of EMSQuiz following any changes constitutes your acceptance of the new terms.
             </p>
           </section>
         </div>

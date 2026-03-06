@@ -158,7 +158,7 @@ export default function BlogPage() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">E</span>
               </div>
-              <span className="font-bold text-xl text-foreground">EMTQUIZ</span>
+              <span className="font-bold text-xl text-foreground">EMSQuiz</span>
             </Link>
             <div className="hidden md:flex items-center gap-3">
               <Link href="/dashboard">
@@ -185,7 +185,7 @@ export default function BlogPage() {
       {/* Hero Section */}
       <section className="border-b border-border py-12 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-4xl mx-auto text-center mb-8">
-          <h1 className="text-4xl font-bold mb-4 text-balance">EMTQUIZ Blog</h1>
+          <h1 className="text-4xl font-bold mb-4 text-balance">EMSQuiz Blog</h1>
           <p className="text-lg text-muted-foreground mb-8">Expert insights, study tips, and preparation strategies for EMT and Paramedic certification success</p>
         </div>
 
@@ -330,7 +330,7 @@ export default function BlogPage() {
       {/* Footer */}
       <footer className="border-t border-border mt-16 py-8 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-7xl mx-auto text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved. Resources for EMT and Paramedic certification success.</p>
+          <p>&copy; {new Date().getFullYear()} EMSQuiz. All rights reserved. Resources for EMT and Paramedic certification success.</p>
         </div>
       </footer>
     </div>

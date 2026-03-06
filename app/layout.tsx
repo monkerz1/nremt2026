@@ -7,10 +7,10 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'EMTQUIZ - EMT & Paramedic Certification Practice Tests',
+  title: 'EMSQuiz - EMT & Paramedic Certification Practice Tests',
   description: 'Ace your NREMT exam with comprehensive EMT and Paramedic certification practice tests. Prepare for national certification with full-length exams, topic drills, and detailed explanations.',
   keywords: 'EMT, Paramedic, NREMT, certification, practice exam, medical certification',
-  creator: 'EMTQUIZ',
+  creator: 'EMSQuiz',
   generator: 'v0.app',
   icons: {
     icon: [

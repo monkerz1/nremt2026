@@ -60,7 +60,7 @@ export default function ContactPage() {
               <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-lg">E</span>
               </div>
-              <span className="font-bold text-xl text-foreground">EMTQUIZ</span>
+              <span className="font-bold text-xl text-foreground">EMSQuiz</span>
             </Link>
             <div className="flex items-center gap-3">
               <Link href="/">
@@ -79,7 +79,7 @@ export default function ContactPage() {
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4 text-balance">Get in Touch</h1>
           <p className="text-lg text-muted-foreground">
-            Have questions about EMTQUIZ? We're here to help! Reach out to our team and we'll get back to you as soon as possible.
+            Have questions about EMSQuiz? We're here to help! Reach out to our team and we'll get back to you as soon as possible.
           </p>
         </div>
       </section>
@@ -389,7 +389,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved. Preparing EMT and Paramedic professionals for success.
+              &copy; {new Date().getFullYear()} EMSQuiz. All rights reserved. Preparing EMT and Paramedic professionals for success.
             </p>
           </div>
         </div>

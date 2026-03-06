@@ -35,7 +35,7 @@ export default function PrivacyPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-sm leading-relaxed">
               <p>
-                EMTQUIZ ("we", "us", "our", or "Company") operates the EMTQUIZ website and mobile application (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
+                EMSQuiz ("we", "us", "our", or "Company") operates the EMSQuiz website and mobile application (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
               </p>
               <p>
                 We are committed to protecting your privacy and ensuring you have a positive experience on our platform. This Privacy Policy explains our online information practices and the choices you can make about how your information is collected and used.
@@ -287,7 +287,7 @@ export default function PrivacyPage() {
       {/* Footer */}
       <footer className="border-t border-border py-8 px-4 sm:px-6 lg:px-8 mt-12">
         <div className="max-w-4xl mx-auto text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} EMSQuiz. All rights reserved.</p>
         </div>
       </footer>
     </div>

@@ -444,7 +444,7 @@ export default function BlogPostPage() {
       {/* Footer */}
       <footer className="border-t border-border mt-16 py-8 px-4 sm:px-6 lg:px-8 bg-card/50">
         <div className="max-w-7xl mx-auto text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} EMTQUIZ. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} EMSQuiz. All rights reserved.</p>
         </div>
       </footer>
     </div>

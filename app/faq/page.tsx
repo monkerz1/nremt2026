@@ -20,14 +20,14 @@ const faqData: FAQItem[] = [
   {
     id: 'gs-1',
     category: 'Getting Started',
-    question: 'How do I create an account on EMTQUIZ?',
+    question: 'How do I create an account on EMSQuiz?',
     answer: 'Creating an account is simple and free. Click on "Get Started" or "Sign Up" on our homepage, enter your email address, create a password, and select your certification level (EMT-Basic, EMT-Intermediate, or Paramedic). You can start using the platform immediately after registration.'
   },
   {
     id: 'gs-2',
     category: 'Getting Started',
-    question: 'What certification levels does EMTQUIZ support?',
-    answer: 'EMTQUIZ supports four certification levels: EMT-Basic, EMT-Intermediate, Paramedic (NREMT), and Advanced Practice Modules. Each level contains progressively advanced questions and topics tailored to the specific national certification exam requirements.'
+    question: 'What certification levels does EMSQuiz support?',
+    answer: 'EMSQuiz supports four certification levels: EMT-Basic, EMT-Intermediate, Paramedic (NREMT), and Advanced Practice Modules. Each level contains progressively advanced questions and topics tailored to the specific national certification exam requirements.'
   },
   {
     id: 'gs-3',
@@ -38,8 +38,8 @@ const faqData: FAQItem[] = [
   {
     id: 'gs-4',
     category: 'Getting Started',
-    question: 'Do I need to download anything to use EMTQUIZ?',
-    answer: 'No, EMTQUIZ is completely web-based. You can access it from any device with an internet connection and a modern web browser. No software installation is required.'
+    question: 'Do I need to download anything to use EMSQuiz?',
+    answer: 'No, EMSQuiz is completely web-based. You can access it from any device with an internet connection and a modern web browser. No software installation is required.'
   },
 
   // Study Methods
@@ -64,8 +64,8 @@ const faqData: FAQItem[] = [
   {
     id: 'sm-4',
     category: 'Study Methods',
-    question: 'How many practice questions does EMTQUIZ have?',
-    answer: 'EMTQUIZ contains over 500 practice questions across all certification levels. Our question bank is continuously expanded with new content. Each question includes detailed explanations to help you understand the concepts, not just memorize answers.'
+    question: 'How many practice questions does EMSQuiz have?',
+    answer: 'EMSQuiz contains over 500 practice questions across all certification levels. Our question bank is continuously expanded with new content. Each question includes detailed explanations to help you understand the concepts, not just memorize answers.'
   },
   {
     id: 'sm-5',
@@ -97,7 +97,7 @@ const faqData: FAQItem[] = [
     id: 'ep-4',
     category: 'Exam Preparation',
     question: 'What is a passing score on the NREMT exam?',
-    answer: 'The NREMT uses Computer Adaptive Testing (CAT) which means the exam adapts based on your answers. There is no fixed passing score. Instead, you pass when the exam is 95% confident you\'re above the passing standard. On EMTQUIZ, consistently scoring 80% or higher indicates good exam readiness.'
+    answer: 'The NREMT uses Computer Adaptive Testing (CAT) which means the exam adapts based on your answers. There is no fixed passing score. Instead, you pass when the exam is 95% confident you\'re above the passing standard. On EMSQuiz, consistently scoring 80% or higher indicates good exam readiness.'
   },
 
   // Analytics & Progress
@@ -136,7 +136,7 @@ const faqData: FAQItem[] = [
   {
     id: 'tech-3',
     category: 'Technical',
-    question: 'Is my data secure on EMTQUIZ?',
+    question: 'Is my data secure on EMSQuiz?',
     answer: 'Yes, we take security seriously. Your data is stored securely using industry-standard encryption. We never sell or share your personal information. Your quiz results and progress are private and only accessible to you.'
   },
   {
@@ -169,7 +169,7 @@ const faqData: FAQItem[] = [
     id: 'as-4',
     category: 'Account & Support',
     question: 'Can I get a refund?',
-    answer: 'We offer a 30-day money-back guarantee if you\'re not satisfied with EMTQUIZ. Contact our support team with your refund request, and we\'ll process it promptly. Most refunds are issued within 5-7 business days.'
+    answer: 'We offer a 30-day money-back guarantee if you\'re not satisfied with EMSQuiz. Contact our support team with your refund request, and we\'ll process it promptly. Most refunds are issued within 5-7 business days.'
   }
 ]
 
