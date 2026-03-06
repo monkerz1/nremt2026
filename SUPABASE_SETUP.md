@@ -1,4 +1,4 @@
-# Supabase Setup Guide for EMTQUIZ
+# Supabase Setup Guide for EMSQUIZ
 
 ## Step 1: Create Supabase Tables
 
